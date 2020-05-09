@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OBJECTS</title>
+</head>
+<body>
+	<p>dealing with objects</p>
+	<script type="text/javascript">
+     ///////literalObject///////
+
+		var car ={
+			company: "kia",
+			model: "seltos",
+			type: "SUV",
+			yearOfManufacture: 2019,
+		}
+		console.log(car)
+
+
+	///////prototypeObject///////
+
+             function autoMotors(company,model,type,yearOfManufacture){
+                this.company = company
+                this.model = model
+                this.type = type
+                this. yearOfManufacture = yearOfManufacture
+            }
+
+             var car1 = new autoMotors ("A","B","C",1998)
+             var car2 =new autoMotors("d","e","f",1999)
+             var car3 =new autoMotors("G","H","I",1995)
+             
+			</script>
+
+
+</body>
+</html>
