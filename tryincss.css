@@ -1,0 +1,36 @@
+.class {
+	margin-top: 40px;
+	margin-bottom: 1px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border: 1px;
+	border-color: black;
+	padding: 30px;
+	padding-left: 400px;
+	background-color:aqua;	 
+}
+
+.bottom {
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-left: 400px;
+	background-color:pink; 
+}
+
+.main {
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-left: 300px;
+    background-color: lavender;
+}
+
+.sign {
+	margin-right: 40px;
+	margin-left: 40px;
+	border: 1px
+	border-color:black;
+    border-style: block;
+    background-color: yellow;
+    padding-left: 900px;
+    padding-bottom: 80px
+}
