@@ -5,10 +5,7 @@ div{
 	width: 200px;
 	margin:auto;
 	background-color: aqua;
-	animation-name: ani;
-	animation-duration: 5s;
-	animation-delay: 2s;
-	animation-iteration-count: infinite;
+	animation: ani 5s;	
 }
 
 .trans{
@@ -25,10 +22,8 @@ div{
 
 p{
 	border: 5px solid;
-	animation-name: para;
-	animation-duration: 10s;
-	animation-delay: 5s;
-	animation-iteration-count: 2;
+	filter: drop-shadow(10px 20px 30px orange);
+	animation: para 10s 2s alternate-reverse;	
 }
 
 @keyframes para {
@@ -36,4 +31,18 @@ p{
 	25% {background-color: blue;margin-left: 40px;}
 	75% {background-color: yellow;margin-left: 80px}
 	110% {background-color: purple;margin-left: 100px}
+}
+
+.flex{
+	display: flex; 
+	background-color: red;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+}
+
+.flex section {
+	background-color: green;
+    padding:10px;
+    margin:10px;
+    font-size: 20px;    
 }
